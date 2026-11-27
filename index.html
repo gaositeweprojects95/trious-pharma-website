@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Trious Pharma — pharmaceutical product information and customer enquiries. Contact our team at info@triousphrama.com.">
+<title>Trious Pharma | Better Health. A Healthier Tomorrow.</title>
+<style>
+:root{--navy:#082e63;--blue:#0874c9;--pale:#edf5ff;--ink:#17365f;--muted:#53677f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+a{color:inherit}.wrap{width:min(1160px,92%);margin:auto}
+header{background:#fff;border-bottom:3px solid var(--blue);position:sticky;top:0;z-index:10}
+.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:1.65rem;font-weight:800;color:var(--navy);text-decoration:none;line-height:1.1}.brand span{color:var(--blue)}.tag{display:block;font-size:.78rem;font-style:italic;font-weight:600;letter-spacing:.2px}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{text-decoration:none;font-weight:700;font-size:.92rem}nav a:hover{color:var(--blue)}
+.email-top{font-size:.9rem;font-weight:700;color:var(--blue);text-decoration:none}
+.hero{background:linear-gradient(90deg,rgba(232,243,255,.97) 0%,rgba(232,243,255,.88) 42%,rgba(232,243,255,.12) 100%),url('images/hero.jpg') center/cover;min-height:330px;display:flex;align-items:center}
+.hero-content{padding:50px 0;max-width:590px}.hero h1{font-size:clamp(2.4rem,5vw,4.2rem);line-height:1.05;margin:0 0 8px;color:var(--navy)}.slogan{font-size:1.35rem;font-weight:700;font-style:italic;margin:0 0 12px}.hero p{font-size:1.08rem;margin:0 0 22px;max-width:490px}
+.btn{display:inline-block;background:var(--blue);color:white;text-decoration:none;padding:11px 22px;border-radius:28px;font-weight:700}.btn:hover{background:var(--navy)}
+section{padding:48px 0}.section-title{text-align:center;margin:0 0 8px;color:var(--navy);font-size:2rem}.section-sub{text-align:center;margin:0 0 28px;color:var(--muted)}
+.products{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.product{overflow:hidden;border-radius:12px;background:var(--pale);box-shadow:0 4px 16px #082e6310}.product img{width:100%;height:145px;object-fit:cover;display:block}.product h3{margin:0;padding:10px;text-align:center;color:white;background:#0864b8;font-size:1rem}
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.info{padding:22px;border-radius:14px;background:#f0f6ff}.info h3{margin:0 0 8px;color:var(--navy)}.info p{margin:0}.contact-panel{background:var(--navy);color:#fff;border-radius:16px;padding:30px;text-align:center}.contact-panel h2{margin:0 0 8px}.contact-panel a{color:#fff;font-weight:700}
+footer{background:#062858;color:#fff;padding:28px 0;text-align:center}footer a{color:#fff;text-decoration:none;margin:0 8px;font-size:.9rem}.foot-brand{font-size:1.35rem;font-weight:800}footer p{margin:7px 0 0;font-size:.85rem;color:#d9e7f8}
+@media(max-width:850px){.nav{padding:14px 0;align-items:flex-start;flex-direction:column}nav{gap:12px}.email-top{display:none}.products{grid-template-columns:repeat(2,1fr)}.info-grid{grid-template-columns:1fr 1fr}.hero{background-position:58% center}}
+@media(max-width:540px){.products{grid-template-columns:1fr 1fr;gap:10px}.product img{height:110px}.info-grid{grid-template-columns:1fr}.hero{min-height:300px}.hero-content{padding:38px 0}.slogan{font-size:1.1rem}section{padding:36px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">Trious <span>Pharma</span><small class="tag">Better Health. A Healthier Tomorrow.</small></a>
+<nav aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About Us</a><a href="#products">Products</a><a href="#contact">Contact Us</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav>
+<a class="email-top" href="mailto:info@triousphrama.com">info@triousphrama.com</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-content">
+<h1>Trious Pharma</h1><p class="slogan">Better Health. A Healthier Tomorrow.</p>
+<p>Welcome to Trious Pharma. Explore our pharmaceutical product categories and contact our team for general business enquiries and product information.</p>
+<a class="btn" href="#products">Explore Product Categories</a>
+</div></section>
+<section id="products"><div class="wrap">
+<h2 class="section-title">Product Categories</h2><p class="section-sub">An overview of common pharmaceutical product formats.</p>
+<div class="products">
+<article class="product"><img src="images/tablets.jpg" alt="Assorted tablets"><h3>Tablets</h3></article>
+<article class="product"><img src="images/capsules.jpg" alt="Capsules"><h3>Capsules</h3></article>
+<article class="product"><img src="images/injectables.jpg" alt="Medical vials"><h3>Injectables</h3></article>
+<article class="product"><img src="images/syrups.jpg" alt="Syrup bottle"><h3>Liquid Products</h3></article>
+<article class="product"><img src="images/ointments.jpg" alt="Ointment tube"><h3>Topical Products</h3></article>
+</div>
+<p class="section-sub" style="margin:20px 0 0">For product availability, specifications, regulatory information or business enquiries, please contact us directly. Product images are illustrative.</p>
+</div></section>
+<section id="about" style="background:#f8fbff"><div class="wrap">
+<h2 class="section-title">About Trious Pharma</h2><p class="section-sub">A professional point of contact for pharmaceutical product enquiries.</p>
+<div class="info-grid">
+<article class="info"><h3>Who We Are</h3><p>Trious Pharma is building an accessible online presence to share business information and respond to customer and partner enquiries.</p></article>
+<article class="info"><h3>Our Focus</h3><p>We aim to communicate clearly, provide helpful product information and direct enquiries to the appropriate contact.</p></article>
+<article class="info"><h3>Our Approach</h3><p>We value responsible communication, transparency and the importance of obtaining appropriate professional advice about medicines.</p></article>
+</div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="contact-panel">
+<h2>Contact Us</h2><p>Have a question or business enquiry? Send our team an email.</p>
+<a class="btn" href="mailto:info@triousphrama.com">Email: info@triousphrama.com</a>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="foot-brand">Trious Pharma</div><div><a href="#home">Home</a><a href="#about">About Us</a><a href="#products">Products</a><a href="#contact">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div><p>© 2026 Trious Pharma. All rights reserved.</p></div></footer>
+</body></html>
